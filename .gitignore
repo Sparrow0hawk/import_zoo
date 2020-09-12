@@ -1,1 +1,4 @@
 # gitignore for itertools magic repo
+
+# vscode stuff
+**/.vscode/*

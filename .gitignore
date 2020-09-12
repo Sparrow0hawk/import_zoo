@@ -1,4 +1,7 @@
-# gitignore for itertools magic repo
+# gitignore for import zoo repo
 
 # vscode stuff
 **/.vscode/*
+
+# python compiled files
+**/__pycache__/*

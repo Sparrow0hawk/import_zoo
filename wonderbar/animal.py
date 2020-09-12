@@ -1,5 +1,14 @@
-import sys 
+import os 
 
+# testing a hunch
+# this os.chdir section breaks this code for tests around imports
+tmp_base_dir = os.getcwd()
+print(tmp_base_dir)
+tmp_microsim_dir = os.path.join(tmp_base_dir, "wonderbar")
+os.chdir(tmp_microsim_dir)
+print(os.getcwd())
+
+import sys 
 sys.path.append('wonderbar')
 
 from zookeeper import Zookeeper

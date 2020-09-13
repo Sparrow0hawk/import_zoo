@@ -4,3 +4,5 @@
 # The Import Zoo
 
 A small zoo-like repository for understanding python imports.
+
+This code has intentionally been left broken, why not try and fork it, fix the problems and create a PR to check if it now works.
